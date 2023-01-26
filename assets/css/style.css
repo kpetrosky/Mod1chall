@@ -13,11 +13,12 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: #2a607c;
   color: #ffffff;
+  position: relative;
 }
 
 .header h1 {
   display: inline-block;
-  font-size: 48px;
+  font-size: 68px;
 }
 
 .header h1 .seo {
@@ -32,11 +33,12 @@ body {
   font-size: 20px;
   }
 
-.header div ul {
-  list-style-type: none;
+.header nav ul {
+  text-align: center;
+  
 }
 
-.header div ul li {
+.header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
